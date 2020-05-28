@@ -14,6 +14,7 @@ body {
 
 .marquee p {
     margin: 0;
+    padding-left:100%;
     display: inline-block;
     white-space: nowrap;
     animation-name: marquee;
