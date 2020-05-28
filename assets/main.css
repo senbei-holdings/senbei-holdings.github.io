@@ -31,3 +31,9 @@ body {
         transform: translate(-100%);
     }
 }
+
+.senbei {
+    pointer-events: none;
+    position: fixed;
+    transition-timing-function: ease-out;
+}
