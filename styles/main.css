@@ -1,0 +1,29 @@
+body {
+    background-color: #415661;
+}
+
+.jis {
+    color: azure;
+    font-size: 10em;
+}
+
+.marquee {
+    overflow:hidden;
+    margin:1em 0;
+  }
+  
+  .marquee p {
+    margin:0;
+    padding-left:100%;
+    display:inline-block;
+    white-space:nowrap;
+    animation-name:marquee;
+    animation-duration:10s;
+      animation-timing-function:linear;
+      animation-iteration-count:infinite;
+  }
+  
+  @keyframes marquee {
+    from { transform:translate(0);     }
+    to   { transform:translate(-100%); }
+  }
